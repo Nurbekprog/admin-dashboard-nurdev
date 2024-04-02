@@ -3,8 +3,8 @@
     {
       "id": "1",
       "firstName": "David",
-      "lastName": "King",
-      "group": "N38"
+      "group": "N45",
+      "lastName": "King"
     },
     {
       "id": "2",
@@ -27,8 +27,8 @@
     {
       "id": "5",
       "firstName": "Willy",
-      "lastName": "Williyam",
-      "group": "N45"
+      "group": "N44",
+      "lastName": "Williyam"
     },
     {
       "id": "6",
