@@ -1,0 +1,45 @@
+.login_p {
+  width: 100%;
+  background: #212121;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .login {
+    width: 40%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .form {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login_p {
+    .login {
+      width: 90%;
+      form {
+        input {
+          width: 90%;
+        }
+        button {
+          width: 90%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.profil {
+  width: 70%;
+  height: 450px;
+  background-color: #333333;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  .login {
+    padding-top: 40px;
+    input {
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+      border: none;
+      outline: none;
+      background-color: rgb(247, 247, 255);
+      height: 50px;
+      margin-top: 30px;
+      border-radius: 8px;
+      padding-left: 50px;
+      font-size: 18px;
+    }
+
+    .input.active {
+      border: 1px solid rgba(255, 0, 0, 0.416);
+    }
+  }
+  .btn {
+    display: flex;
+    padding: 0 70px 0 70px;
+    button {
+      width: 40%;
+      height: 50px;
+      display: block;
+      margin: 0 auto;
+      border: none;
+      outline: none;
+      margin-top: 30px;
+      cursor: pointer;
+      background-color: rgb(91, 91, 227);
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+    button:nth-child(2) {
+      background-color: white;
+      color: black;
+      border: 1px solid rgb(91, 91, 227);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .profil {
+    width: 90%;
+    .btn {
+      padding: 0 15px 0 15px;
+    }
+  }
+}
