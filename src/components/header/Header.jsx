@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import "./Header.scss";
+import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
 function Header({ login }) {
   const navegate = useNavigate();
   if (login) {
@@ -12,10 +13,10 @@ function Header({ login }) {
                 <h1>Students</h1>
               </Link>
               <div className="header_div">
-                <Link to={"/profile"} style={{ color: "#fff" }}>
-                  Profile
-                </Link>
                 <button onClick={() => navegate("/add")}>Add</button>
+                <Link to={"/profile"} style={{ color: "#fff" }}>
+                  <AccountCircleRoundedIcon fontSize="large" />
+                </Link>
               </div>
             </div>
           </div>
