@@ -31,7 +31,7 @@ const LoginPanel = ({ login }) => {
     setName(false);
   };
   return (
-    <>
+    <> 
       <div className="login_p">
         <div className="container">
           <div className="login">
