@@ -9,7 +9,7 @@ import Edit from "./components/edit/Edit";
 import Profile from "./components/Profile/Profile";
 import NotFound from "./components/not-found/NotFound";
 import SiteBar from "./components/site_bar/SiteBar";
-const Router = () => {
+const Router = () => { 
   const [isLogin, setIsLogin] = useState(false);
   const navigation = useNavigate();
   const parms = window.location.href;
